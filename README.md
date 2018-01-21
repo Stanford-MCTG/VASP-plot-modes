@@ -25,12 +25,12 @@ In a single folder, include the following 4 files:
 
 To run, do the following:
 
-	$  python modes_to_vest.py <optional-vesta-filename>
+	$  python modes_to_vesta.py <optional-vesta-filename>
 
 
 Only the first two arguments are needed; the third argument is optional and can be used to specify an alternative VESTA filename (i.e., a name different from `poscar.vesta`)
 
-The result is a set of 3N files where N is the number of atoms in the unit cell. Each file has the format `mode_<freq>.vesta`, where <freq> is the mode frequency in cm<sup>-1</sup>. 
+The result is a set of 3N files where N is the number of atoms in the unit cell. Each file has the format `mode_<freq>.vesta`, where `<freq>` is the mode frequency in cm<sup>-1</sup>. 
 
 
 *Some parts of `modes_to_vesta.py` have been adapted from [vasp_raman.py](https://github.com/raman-sc/VASP) and [Phonopy](https://atztogo.github.io/phonopy/)*
