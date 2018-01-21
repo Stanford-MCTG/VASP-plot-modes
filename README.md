@@ -10,8 +10,8 @@ computed from the density functional theory (DFT) code
 
 
 ### Details:
-The file `modes_to_vesta.py` quickly converts the modes calculated in
-a VASP density functional perturbation theory (DFPT) calculation (IBRION=7 or 8) to
+The file `modes_to_vesta.py` converts the modes calculated in
+a VASP density functional perturbation theory (DFPT) calculation (IBRION = 7 or 8) to
 the Visualization for Electronic and STructural Analysis [VESTA](http://jp-minerals.org/vesta/en/) file format.  The final result is a VESTA file that allows you to visualize each vibrational mode computed from DFPT.
 
 ### Usage:
