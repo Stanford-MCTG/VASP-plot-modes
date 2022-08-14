@@ -138,7 +138,7 @@ def openVestaOutcarPoscar():
     elif len(sys.argv) == 2:
         try:
             print("Opening ", sys.argv[1])
-            vesta = open(sys.argv[1],'w')
+            vesta = open(sys.argv[1],'r')
         except:
             print("Cannot find file ", sys.argv[1])
             sys.exit(0)
